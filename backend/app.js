@@ -14,7 +14,7 @@ connectDatbase();
 // middleware
 app.use(express.json())
 app.use(cors()); 
-// set response header in the header
+// set response header
 app.use('/api/v1/',products);
 app.use('/api/v1/',orders);
 
